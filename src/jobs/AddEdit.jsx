@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Formik, Field, Form, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
 
-import { userService, alertService } from '@/_services'
+import { userService, alertService } from '../_services'
 
 function AddEdit({ history, match }) {
   const { id } = match.params
