@@ -35,6 +35,7 @@ module.exports = {
     alias: {
       '@': path.resolve(__dirname, 'src/'),
     },
+    modules: ['node_modules'],
   },
   plugins: [
     new HtmlWebpackPlugin({

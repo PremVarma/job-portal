@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route, Switch, Redirect, useLocation } from 'react-router-dom'
 
-import { Nav, Alert } from '@/_components'
-import { Home } from '@/home'
-import { Jobs } from '@/jobs'
+import { Nav, Alert } from './_components'
+import { Home } from './home'
+import { Jobs } from './jobs'
 
 function App() {
   const { pathname } = useLocation()
