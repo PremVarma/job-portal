@@ -60,8 +60,8 @@ function Home() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i className="icon icon-simple-remove icon-close"></i>
-              <i className="icon icon-menu-34 icon-burger"></i>
+              <i class="icon icon-close fas fa-times"></i>
+              <i class="icon icon-burger fas fa-bars"></i>
             </button>
           </nav>
         </div>
