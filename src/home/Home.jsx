@@ -9,7 +9,7 @@ function Home() {
           <nav className="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light">
             <div className="brand-logo">
               <a href="#">
-                <img src="../l1-logo.png" alt="" />
+                <img src="../../l1-logo.png" alt="" />
               </a>
             </div>
             <div className="collapse navbar-collapse" id="mobile-menu">
@@ -58,7 +58,7 @@ function Home() {
           <div className="row align-items-center">
             <div className="col-lg-5 col-xl-4 col-md-5 col-sm-6 mb--30 mb-md--0">
               <div className="hero-image">
-                <img src="../l7-hero-image.png" alt="" />
+                <img src="../../l7-hero-image.png" alt="" />
               </div>
             </div>
             <div className="col-lg-7 col-xl-6 col-md-7 offset-xl-1">
@@ -131,7 +131,7 @@ function Home() {
           <div className="row ">
             <div className="col-lg-6 mb--30 mb--md-0 order-lg-2">
               <div className="content-image">
-                <img src="../l7-mobile.png" alt="" />
+                <img src="../../l7-mobile.png" alt="" />
               </div>
             </div>
             <div className="col-lg-6 col-md-9 order-lg-1">
@@ -171,12 +171,12 @@ function Home() {
             <div className="col-lg-6 mb--30 mb--md-0">
               <div className="content-image-2 content-image-group">
                 <div className="single-image">
-                  <img src="../l7-content2-image-1.png" alt="" />
-                  <img src="../l7-content2-image-2.png" alt="" />
+                  <img src="../../l7-content2-image-1.png" alt="" />
+                  <img src="../../l7-content2-image-2.png" alt="" />
                 </div>
                 <div className="single-image">
-                  <img src="../l7-content2-image-3.png" alt="" />
-                  <img src="../l7-content2-image-4.png" alt="" />
+                  <img src="../../l7-content2-image-3.png" alt="" />
+                  <img src="../../l7-content2-image-4.png" alt="" />
                 </div>
               </div>
             </div>
@@ -201,7 +201,7 @@ function Home() {
           <div className="row align-items-center">
             <div className="col-lg-6 mb--30 mb--md-0 order-lg-2">
               <div className="content-image-3">
-                <img src="../l7-mobile-2.png" alt="" />
+                <img src="../../l7-mobile-2.png" alt="" />
               </div>
             </div>
             <div className="col-lg-6 col-md-9 order-lg-1">
@@ -228,7 +228,7 @@ function Home() {
       <div className="video-area video-img-overlay">
         <img src="../video-bg.png" alt="" className="video-image" />
         <a href="#" className="play-button" data-fancybox>
-          <img src="../video-play-img.png" alt="" />
+          <img src="../../video-play-img.png" alt="" />
         </a>
       </div>
 
@@ -244,10 +244,10 @@ function Home() {
                 </p>
                 <div className="cta-btns">
                   <a href="#" className="apple-store">
-                    <img src="../app-store.png" alt="" />
+                    <img src="../../app-store.png" alt="" />
                   </a>
                   <a href="#" className="google-play">
-                    <img src="../google-play.png" alt="" />
+                    <img src="../../google-play.png" alt="" />
                   </a>
                 </div>
               </div>
@@ -263,7 +263,7 @@ function Home() {
               <div className="col-lg-6 col-md-6 mb--30 text-lg-left text-center">
                 <div className=" d-lg-flex">
                   <div className="footer-logo mr-lg-4 mb-4 mb-lg-0">
-                    <img src="../l1-logo.png" alt="" />
+                    <img src="../../l1-logo.png" alt="" />
                   </div>
                   <p className="copyright-text">&copy; 2020 UXTheme, All Rights Reserved</p>
                 </div>
