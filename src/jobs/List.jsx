@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { Nav } from '../_components'
 
 import { userService } from '../_services'
 
@@ -13,6 +14,7 @@ function List({ match }) {
 
   return (
     <div>
+      <Nav />
       <h1>Jobs</h1>
       <Link to={`${path}/add`} className="btn btn-sm btn-success mb-2">
         Add Job
@@ -34,18 +36,16 @@ function List({ match }) {
                 <td>{job.location}</td>
                 <td>{job.salary}</td>
                 <td style={{ whiteSpace: 'nowrap' }}>
-                  <Link to={`${path}/edit/${job.id}`} className="btn btn-sm btn-primary mr-1">
+                  <Link
+                    to={`${path}/edit/${job.id}`}
+                    className="btn btn-sm btn-primary"
+                    style={{ marginRight: '10px' }}
+                  >
                     Edit
                   </Link>
                   <Link to={`${path}/job/${job.id}`} className="btn btn-sm btn-secondary mr-1">
                     View
                   </Link>
-                  {/* <button
-                    onClick={() => deleteUser(job.id)}
-                    className="btn btn-sm btn-danger btn-delete-user"
-                  >
-                    <span>View</span>
-                  </button> */}
                 </td>
               </tr>
             ))}
