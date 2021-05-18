@@ -17,19 +17,24 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
+
       {
-        test: /\.(jpg|png|svg)$/,
+        test: /\.(png|jpg|gif)$/,
         use: [
           {
-            loader: 'url-loader',
+            loader: 'file-loader',
             options: {
-              encoding: false,
+              esModule: false,
+              name: '[name].[ext]',
+              publicPath: 'images',
+              outputPath: 'images',
             },
           },
         ],
       },
     ],
   },
+
   resolve: {
     extensions: ['.js', '.jsx'],
     alias: {
