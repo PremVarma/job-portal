@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="app-container bg-light">
       <Alert />
-      <div className="container pt-4 pb-4">
+      <div className="">
         <Switch>
           <Redirect from="/:url*(/+)" to={pathname.slice(0, -1)} />
           <Route exact path="/" component={Home} />

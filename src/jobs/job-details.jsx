@@ -15,7 +15,7 @@ export const JobDetail = () => {
   return (
     <>
       <Nav />
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center" style={{ height: '92vh' }}>
         <div className="">
           <div className="">
             <img
